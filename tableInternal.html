@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table with Internal CSS</title>
+   <style>
+        h3
+        {
+            color:crimson;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            text-decoration: underline;
+            text-decoration-color:rgb(18, 22, 119);
+            text-align: center;
+        }
+        table
+        {
+            border-color:coral;
+            border-collapse: collapse;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        td
+        {
+            font-weight: lighter;
+            text-align: center;
+        }
+        th
+        {
+            padding: 12px;
+         background-color:lightpink; 
+         color:crimson;   
+        }
+        tr:nth-child(even)
+        {
+            background-color: rgb(127, 210, 213); 
+            color:rgb(18, 22, 119);
+        }
+        tr:nth-child(odd)
+        {
+            background-color: rgb(169, 229, 191);
+            color:rgb(26, 125, 65);
+        }
+        tr:hover:nth-child(even)
+        {
+            background-color: rgb(246, 246, 246);
+        }
+        tr:hover:nth-child(odd)
+        {
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+
+    <h3>Using Internal Style/CSS</h3>
+    <table border="2">
+    <tr>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Gender</th>
+    </tr>
+    <tr>
+        <td>Atharva</td>
+        <td>18</td>
+        <td>Male</td>
+    </tr>
+    <tr>
+        <td>Harsh</td>
+        <td>18</td>
+        <td>Male</td>
+    </tr>
+    <tr>
+        <td>Soham</td>
+        <td>17</td>
+        <td>Male</td>
+    </tr>
+    <tr>
+        <td>Sudev</td>
+        <td>18</td>
+        <td>Male</td>
+    </tr>
+    <tr>
+        <td>Harish</td>
+        <td>19</td>
+        <td>Male</td>
+    </tr>
+</table>
+</body>
+</html>

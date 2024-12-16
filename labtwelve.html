@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab Twelve</title>
+</head>
+ <!--CSC-A Pranav Khare, 9 Dec,2024-->
+<body style="background-color: rgb(214, 128, 177); text-align: center;">
+   <h3><mark style="color:  rgb(33, 4, 75); background-color: blueviolet;">Forgot Password</mark></h3>
+
+    <form style="margin-left: auto; margin-right:auto;">
+    <table border="1" style=" border-color:black; border-collapse: collapse; color: rgb(108, 5, 253); background-color: rgb(235, 214, 255); 
+    margin-left: auto; margin-right: auto; font-family: 'Courier New', Courier, monospace; font-size:smaller; ">
+     <tr>
+        <th>Email ID</th>
+        <td><input type="email" name="emailid" id="eID" required placeholder="email1234@gmail.com" autofocus></td>
+     </tr>   
+     <tr>
+        <th>Old Password</th>
+        <td><input type="password" name="oldpassword" id="opwd" required placeholder="Enter your Old Password" autofocus></td>
+     </tr>
+     <tr>
+        <th>New Password</th>
+        <td><input type="password" name="newpassword" id="npwd" required placeholder="Type New Password Here" autofocus></td>
+     </tr>
+     <tr>
+        <th>Confirm Password</th>
+        <td><input type="password" name="confirmpassword" id="cpwd" required placeholder="Confirm Your Password" autofocus></td>
+     </tr>
+     <tr>
+        <th>Security Questions</th>
+        <td>
+            <select name="questions" id="SQ">
+                <option value="dog">What is the name of your Dog?</option>
+                <option value="teachername">What is the name of your Second Grade Teacher?</option>
+                <option value="Cuisine">What is your preffered Choice of Cuisine?</option>
+                <option value="dog">What is the name of your Favourite Restaurant?</option>
+            </select>
+        </td>
+     </tr>
+     <tr>
+        <th>Answer</th>
+        <td><textarea  style="margin-left: auto;margin-right:auto" name="Answers" id="SQnA"></textarea></td>
+     </tr>
+     <tr>
+      <td colspan="2" style="text-align: center;"><input type="submit" value="Submit" style=" color: rgb(235, 214, 255);
+         background-color: rgb(139, 59, 238)"></td>
+    </tr>
+    </table>
+    </form>
+</body>
+</html>
